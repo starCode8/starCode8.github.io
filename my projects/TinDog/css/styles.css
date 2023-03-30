@@ -1,0 +1,156 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+h1 {
+  font-family: "Lilita One", cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* DOWNLOAD BUTTONS */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  border-radius: 200px;
+}
+
+/* TITLE IMAGE */
+
+.title-image {
+  width: 22%;
+  transform: rotate(25deg);
+  right: 20%;
+  position: absolute;
+}
+
+/* FEATURE SECTION */
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+
+  position: relative;
+}
+.fearute-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: orange;
+  font-size: 75px;
+}
+
+/* TESTIMONIAL SECTION */
+
+#testimonials {
+  background-color: orange;
+  color: white;
+  font-family: "Lilita One", cursive;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#press {
+  background-color: orange;
+
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING SECTION */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* -------- */
+
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    width: 60%;
+    right: 5%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* CTA SACTION */
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15%;
+}
+
+.cst-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* FOOTER SECTION */
+#footer {
+  padding: 7% 15%;
+}
+.social-icon {
+  margin: 20px 10px;
+}
